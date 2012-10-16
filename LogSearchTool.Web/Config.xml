@@ -1,0 +1,484 @@
+<Configuration>
+  <!-- UKDI Motor -->
+  <Application>
+    <Name>UKDI Motor Transaction Log</Name>
+    <Value>UKDIMotorTransaction</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>UKDI Motor Error Log</Name>
+    <Value>UKDIMotorLog</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+
+  <!-- UKDI Home -->
+  <Application>
+    <Name>UKDI Home Transaction Log</Name>
+    <Value>UKDIHomeTransaction</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>UKDI Home Error Log</Name>
+    <Value>UKDIHomeLog</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+
+  <!-- UKDI Travel -->
+  <Application>
+    <Name>UKDI Travel Transaction Log</Name>
+    <Value>UKDI:TravelTransactionLog</Value>
+    <LogName>TravelTransactionLog</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>UKDI Travel Error Log</Name>
+    <Value>UKDI:TravelLog</Value>
+    <LogName>TravelLog</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>UKDI Travel Payment Transaction Log</Name>
+    <Value>UKDI:NUDPaymentTransaction</Value>
+    <LogName>NUDPaymentTransaction</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>UKDI Travel Payment Error Log</Name>
+    <Value>UKDI:NUDPaymentLog</Value>
+    <LogName>NUDPaymentLog</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+
+  <!-- UKDI Motorcycle -->
+  <Application>
+    <Name>Bike Transaction Log</Name>
+    <Value>NUDBikeTransaction</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>Bike Error Log</Name>
+    <Value>NUDBikeLog</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>Bike Payment Transaction Log</Name>
+    <Value>BIKE:NUDPaymentTransaction</Value>
+    <LogName>NUDPaymentTransaction</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>Bike Payment Error Log</Name>
+    <Value>BIKE:NUDPaymentLog</Value>
+    <LogName>NUDPaymentLog</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>Bike SnR Log</Name>
+    <Value>BIKE:NUDSaveRetrieveLog</Value>
+    <LogName>NUDSaveRetrieveLog</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+
+  <!-- UKDI Rescue -->
+  <Application>
+    <Name>Rescue Transaction Log</Name>
+    <Value>NUDRescueTransaction</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>Rescue Error Log</Name>
+    <Value>NUDRescueLog</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>Rescue Payment Transaction Log</Name>
+    <Value>RESC:NUDPaymentTransaction</Value>
+    <LogName>NUDPaymentTransaction</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>Rescue Payment Error Log</Name>
+    <Value>RESC:NUDPaymentLog</Value>
+    <LogName>NUDPaymentLog</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+  <Application>
+    <Name>Rescue SnR Log</Name>
+    <Value>RESC:NUDSaveRetrieveLog</Value>
+    <LogName>NUDSaveRetrieveLog</LogName>
+    <ServerId>UKDI</ServerId>
+  </Application>
+
+  <!-- HSBC -->
+  <Application>
+    <Name>HSBC Home Transaction Log</Name>
+    <Value>HSBCHomeTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Home Error Log</Name>
+    <Value>HSBCHomeErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBCB2B Home TransactionLog</Name>
+    <Value>HSBCB2BHomeTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBCB2B Home Error Log</Name>
+    <Value>HSBCB2BHomeErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBCB2B Student Home TransactionLog</Name>
+    <Value>HSBCSTDHomeTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBCB2B Student Home Error Log</Name>
+    <Value>HSBCSTDHomeErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Home Payment Transaction Log</Name>
+    <Value>HSBC:HSBCPaymentTransactionLog</Value>
+    <LogName>HSBCPaymentTransactionLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Home Payment Error Log</Name>
+    <Value>HSBC:HSBCPaymentErrorLog</Value>
+    <LogName>HSBCPaymentErrorLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBCB2B Home Payment Transaction Log</Name>
+    <Value>HSBCB2BPaymentTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBCB2B Home Payment Error Log</Name>
+    <Value>HSBCB2BPaymentErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC StuHome Payment Transaction Log</Name>
+    <Value>HSBCSTD:HSBCPaymentTransactionLog</Value>
+    <LogName>HSBCPaymentTransactionLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC StuHome Payment Error Log</Name>
+    <Value>HSBCSTD:HSBCPaymentErrorLog</Value>
+    <LogName>HSBCPaymentErrorLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Home SnR Log</Name>
+    <Value>HSBC:HSBCSaveRetrieveErrorLog</Value>
+    <LogName>HSBCSaveRetrieveErrorLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBCB2B Home SnR Log</Name>
+    <Value>HSBCB2BSaveRetrieveErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Student Home SnR Log</Name>
+    <Value>HSBCSTD:HSBCSaveRetrieveErrorLog</Value>
+    <LogName>HSBCSaveRetrieveErrorLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Travel Transaction Log</Name>
+    <Value>HSBC:TravelTransactionLog</Value>
+    <LogName>TravelTransactionLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Travel Error Log</Name>
+    <Value>HSBC:TravelLog</Value>
+    <LogName>TravelLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Travel Payment Transaction Log</Name>
+    <Value>HSBC:NUDPaymentTransaction</Value>
+    <LogName>NUDPaymentTransaction</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>HSBC Travel Payment Error Log</Name>
+    <Value>HSBC:NUDPaymentLog</Value>
+    <LogName>NUDPaymentLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+
+  <!-- FD -->
+  <Application>
+    <Name>FD Home Transaction Log</Name>
+    <Value>FDHomeTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>FD Home Error Log</Name>
+    <Value>FDHomeErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>FD Home Payment Transaction Log</Name>
+    <Value>FDPaymentTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>FD Home Payment Log</Name>
+    <Value>FDPaymentErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>FD Home SnR Log</Name>
+    <Value>FDSaveRetrieveErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>FD Travel Transaction Log</Name>
+    <Value>FD:TravelTransactionLog</Value>
+    <LogName>TravelTransactionLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>FD Travel Error Log</Name>
+    <Value>FD:TravelLog</Value>
+    <LogName>TravelLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>FD Travel Payment Transaction Log</Name>
+    <Value>FD:NUDPaymentTransaction</Value>
+    <LogName>NUDPaymentTransaction</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>FD Travel Payment Error Log</Name>
+    <Value>FD:NUDPaymentLog</Value>
+    <LogName>NUDPaymentLog</LogName>
+    <ServerId>CP</ServerId>
+  </Application>
+
+  <!-- Barclays -->
+  <Application>
+    <Name>Barclays B2B Home TransactionLog</Name>
+    <Value>BARB2BHomeTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Barclays B2B Home Error Log</Name>
+    <Value>BARB2BHomeErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Barclays B2B StuHome TransactionLog</Name>
+    <Value>BARB2BSTDHomeTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Barclays B2B StuHome Error Log</Name>
+    <Value>BARB2BSTDHomeErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Barclays B2B Payment Transaction Log</Name>
+    <Value>BARB2BPaymentTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Barclays B2B Payment Error Log</Name>
+    <Value>BARB2BPaymentErrorLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Barclays QQ Transaction Log</Name>
+    <Value>QQHomeTransaction</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Barclays QQ Error Log</Name>
+    <Value>QQHomeLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Barclays Online Docs Log</Name>
+    <Value>OnlineDocsTransactionLog</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+
+  <!-- Leeds - IBSP -->
+  <Application>
+    <Name>Leeds Home Transaction Log</Name>
+    <Value>LeedsHomeTransactionLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>Leeds Home Error Log</Name>
+    <Value>LeedsHomeErrorLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>LeedsB2B Home Transaction Log</Name>
+    <Value>LeedsB2BHomeTransactionLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>LeedsB2B Home Error Log</Name>
+    <Value>LeedsB2BHomeErrorLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>LeedsQQ Home Transaction Log</Name>
+    <Value>LeedsQQHomeTransactionLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>LeedsQQ Home Error Log</Name>
+    <Value>LeedsB2BQQHomeErrorLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>Leeds Home Payment Transaction Log</Name>
+    <Value>LeedsPaymentTransactionLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>Leeds Home Payment Log</Name>
+    <Value>LeedsPaymentErrorLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>LeedsB2B Home Payment Transaction Log</Name>
+    <Value>LeedsB2BPaymentTransactionLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>LeedsB2B Home Payment Log</Name>
+    <Value>LeedsB2BPaymentErrorLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>Leeds Home SnR Log</Name>
+    <Value>LeedsSaveRetrieveLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+  <Application>
+    <Name>LeedsB2B Home SnR Log</Name>
+    <Value>LeedsB2BSaveRetrieveLog</Value>
+    <ServerId>IBSP</ServerId>
+  </Application>
+
+  <!-- MyPolicy / PWSS -->
+  <Application>
+    <Name>MyPolicy Transaction Log</Name>
+    <Value>MyPolicyTransaction</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+  <Application>
+    <Name>MyPolicy Error Log</Name>
+    <Value>MyPolicyLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+  <Application>
+    <Name>PWSS(old) Transaction Log</Name>
+    <Value>PWSSTransactionLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+  <Application>
+    <Name>PWSS(old) Error Log</Name>
+    <Value>PWSSLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+
+  <!-- VCA -->
+  <Application>
+    <Name>VCA Transaction Log</Name>
+    <Value>VCATransaction</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+  <Application>
+    <Name>VCA Error Log</Name>
+    <Value>VCALog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+
+  <!-- Fast track -->
+  <Application>
+    <Name>Fasttrack Transaction Log</Name>
+    <Value>FASTTRACKTransactionLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+  <Application>
+    <Name>Fasttrack Error Log</Name>
+    <Value>FASTTRACKLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+
+  <!-- Auto reg -->
+  <Application>
+    <Name>AutoReg Transaction Log</Name>
+    <Value>AutoRegTransaction</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+  <Application>
+    <Name>AutoReg Error Log</Name>
+    <Value>AutoRegLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+
+  <!-- CDI -->
+  <Application>
+    <Name>CDI Transaction Log</Name>
+    <Value>CDITransanctionLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+  <Application>
+    <Name>CDI Error Log</Name>
+    <Value>CDILog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+
+  <!-- eDocs -->
+  <Application>
+    <Name>eDocs Transaction Log</Name>
+    <Value>EDocsTransactionLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+  <Application>
+    <Name>eDocs Error Log</Name>
+    <Value>EDocsLog</Value>
+    <ServerId>PWSS</ServerId>
+  </Application>
+
+  <!-- Smart Mail -->
+  <Application>
+    <Name>Partner Smart Mail TransactionLog</Name>
+    <Value>SMARTMailserviceTransactionLogs.txt</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>Partner Smart Mail ErrorLog</Name>
+    <Value>SMARTMailserviceLogs.txt</Value>
+    <ServerId>CP</ServerId>
+  </Application>
+  <Application>
+    <Name>UKDI Smart Mail TransactionLog</Name>
+    <Value>SMARTMailserviceTransactionLogs.txt</Value>
+    <ServerId>UKDI</ServerId>
+  </Application>
+
+  <Servers>
+    <UKDI>UKNCSVUAA075;UKNCSVUAA076;UKNCSVUAA077;UKNCSVUAA078;UKNCSVUAA079;UKNWSVUAA153;UKNWSVUAA154;UKNWSVUAA155;UKNWSVUAA156;UKNWSVUAA157</UKDI>
+    <CP>UKNCSVUAA084;UKNCSVUAA085;UKNCSVUAA086;UKNWSVUAA162;UKNWSVUAA163;UKNWSVUAA164;UKNCSVUAA227;UKNWSVUAA311</CP>
+    <PWSS>UKNCSVUAA087;UKNCSVUAA088;UKNCSVUAA089;UKNWSVUAA165;UKNWSVUAA166;UKNWSVUAA167</PWSS>
+    <IBSP>UKNCSVUAA091;UKNCSVUAA092;UKNWSVUAA177;UKNWSVUAA178</IBSP>
+  </Servers>
+</Configuration>

@@ -1,0 +1,282 @@
+﻿body
+{
+    width: 1080px;
+    margin: 10px auto 10px auto;
+    background-color: #EDF5F9;
+    background-image: none;
+    font-family: Verdana;
+    font-size: 100%;
+    color: #333333;
+    line-height: 15px;
+    vertical-align: middle;
+}
+form
+{
+    padding: 20px;
+    width: 680;
+    background-color: #FFFFFF;
+    text-indent: 10px;
+}
+table
+{
+    background-color: #F4F4F4;
+    border: 2px outset #E5E5E5;
+}
+table.defined tr
+{
+    margin: 2px;
+    border: 1px dotted #8BA2AA;
+}
+th
+{
+    background-color: #012561;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+h1, h2, h3
+{
+    background-color: #003399;
+    color: #ffffff;
+}
+h1
+{
+    height: 30px;
+    font-size: 150%;
+    padding-top: 1.5%;
+}
+h2
+{
+    height: 30px;
+    font-size: 125%;
+    padding-top: 1.3%;
+}
+h3
+{
+    height: 25px;
+    font-size: 100%;
+    padding-top: 1.2%;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.smallText
+{
+    font-size: 60%;
+}
+.mediumText
+{
+    font-size: 80%;
+}
+.topGap
+{
+    margin-top: 20px;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.smallerBlock
+{
+    width: 240px;
+}
+.smallBlock
+{
+    width: 360px;
+}
+.mediumBlock
+{
+    width: 460px;
+}
+.largeBlock
+{
+    width: 520px;
+}
+.largerBlock
+{
+    width: 680px;
+}
+.fullBlock
+{
+    width: 1015px;
+}
+div.block
+{
+    padding: 5px 0 5px 0;
+    height: 40px;
+    width: 510px;
+    margin-left: 5px;
+}
+div.borderTop
+{
+    border-top: 1px;
+    border-top-style: dotted;
+    border-top-color: #0000FF;
+}
+div.borderBottom
+{
+    border-bottom: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #0000FF;
+}
+div.block table
+{
+    border: none;
+    background: none;
+}
+div.block table tr
+{
+    border: none;
+    background: none;
+}
+div.block span label
+{
+    float: left;
+    width: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 80%;
+    margin: 0 1px 0 20px;
+}
+div.block span input
+{
+    margin-top: 5px;
+}
+div.endBlock
+{
+    float: left;
+    margin: 50px 0 10px 0;
+}
+div.block .Container
+{
+    float: left;
+    width: 290px;
+    font-size: 90%;
+    font-weight: normal;
+    font-variant: normal;
+    font-family: Calibri;
+}
+div.block .smallContainer
+{
+    float: left;
+    width: 210px;
+    font-size: 90%;
+    font-weight: normal;
+    font-variant: normal;
+    font-family: Calibri;
+    text-indent: 0px;
+}
+div.block div.smallContainer span.radio label
+{
+    float: left;
+    width: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 80%;
+    margin: 0 1px 0 14px;
+}
+div.block div.smallContainer span.longRepeat label
+{
+    float: left;
+    width: 50px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 60%;
+    text-indent: 0px;
+    margin: 0px;
+    text-align: right;
+    margin: 0 20px;
+}
+.error
+{
+    font-size: 105%;
+    font-weight: normal;
+    font-variant: normal;
+    color: #FF0000;
+    font-family: Calibri;
+}
+.genericError
+{
+    font-size: 110%;
+    font-weight: normal;
+    font-variant: normal;
+    color: #FF0000;
+    font-family: Calibri;
+    padding: 5px 0;
+}
+div.block label
+{
+    float: left;
+    padding-top: 5px;
+    width: 210px;
+    color: #004FB6;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 80%;
+    text-indent: 0px;
+}
+div.block select
+{
+    width: 280px;
+}
+div.block input.text
+{
+    width: 280px;
+}
+div.block input.medium
+{
+    width: 200px;
+}
+div.smallContainer select
+{
+    width: 150px;
+}
+.mediumButton
+{
+    background-image: url('../Images/btn-white-110.png');
+    background-repeat: no-repeat;
+    border: none;
+    width: 110px;
+    height: 26px;
+    color: #004fb6;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header
+{
+    background-image: url('../Images/yellow-box-bg.png');
+    background-repeat: repeat-x;
+    height: 128px;
+}
+.tcsLogo
+{
+    float: right;
+    margin-top: 85px;
+    background-image: url('../Images/TCSlogo.bmp');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 259px;
+    height: 43px;
+}
+.avivaLogo
+{
+    float: left;
+    margin: 10px 10px 0 0;
+    background-image: url('../Images/Aviva_logo.bmp');
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 138px;
+    height: 106px;
+}
+
+
+
+
